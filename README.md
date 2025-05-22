@@ -1,21 +1,23 @@
 # test-dev.to
 
-# Clone repo
+## Clone repo
 git clone https://github.com/viadwimr/test-dev.to.git
+
+## Change directory
 cd test-dev.to  # or the folder name you used when cloning
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Install Playwright browsers
+## Install Playwright browsers
 npx playwright install
 
-# Run all tests
+## Run all tests
 npx playwright test
 
-# Run spesific test only (example: login.spec.js)
+## Run spesific test only (example: login.spec.js)
 npx playwright test tests/login.spec.js
 
-# View test report
+## View test report
 npx playwright show-report
 
